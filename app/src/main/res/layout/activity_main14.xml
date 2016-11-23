@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundMain"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/readFromXmlButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:onClick="onClick"
+        android:text="@string/read_data_from_XML"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:background="@drawable/corners">
+
+        <TextView
+            android:id="@+id/tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/big_tip_text"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tip"
+            android:gravity="left"
+            android:text="Фаина Раневская"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toLeftOf="@+id/star"
+            android:layout_toStartOf="@+id/star" />
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignEnd="@+id/tip"
+            android:layout_alignRight="@+id/tip"
+            android:layout_below="@+id/tip"
+            android:layout_margin="5dp"
+            android:background="@drawable/arrow" />
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tip"
+            android:layout_margin="5dp"
+            android:layout_toLeftOf="@+id/arrow"
+            android:layout_toStartOf="@+id/arrow"
+            android:background="@drawable/star" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UK"
+        android:id="@+id/ukButton"
+        android:layout_below="@+id/readFromXmlButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EN"
+        android:id="@+id/enButton"
+        android:layout_below="@+id/readFromXmlButton"
+        android:layout_toLeftOf="@+id/ukButton"
+        android:layout_toStartOf="@+id/ukButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RU"
+        android:id="@+id/ruButton"
+        android:layout_below="@+id/readFromXmlButton"
+        android:layout_toRightOf="@+id/ukButton"
+        android:layout_toEndOf="@+id/ukButton" />
+
+
+</RelativeLayout>

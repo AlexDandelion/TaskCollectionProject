@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="wifi"
+        android:summary="@string/wifi_summary"
+        android:title="@string/wifi_title" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="hints"
+        android:summary="@string/hints_summary"
+        android:title="@string/hints_title"/>
+    <ListPreference
+        android:defaultValue="1"
+        android:key="languages"
+        android:summary="@string/languages_summary"
+        android:title="@string/languages_title"
+        android:entries="@array/languages"
+        android:entryValues="@array/languages"
+        android:dialogTitle="Выберите стиль для шрифта"/>
+
+</PreferenceScreen>

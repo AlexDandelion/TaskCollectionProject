@@ -1,0 +1,68 @@
+<resources>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main2">Мейн активити 2</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="title_activity_main4">MainActivity4</string>
+    <string name="title_activity_main5">MainActivity5</string>
+    <string name="title_activity_main6">MainActivity6</string>
+    <string name="title_activity_main7">MainActivity7</string>
+    <string name="title_activity_main8">MainActivity8</string>
+    <string name="title_activity_main9">MainActivity9</string>
+    <string name="w2">w2</string>
+    <string name="w3">w3</string>
+    <string name="w4">w4</string>
+    <string name="w5">w5</string>
+    <string name="w6">w6</string>
+    <string name="w7">w7</string>
+    <string name="w8">w8</string>
+    <string name="w9">w9</string>
+    <string name="w10">w10</string>
+    <string name="w11">w11</string>
+    <string name="w12">w12</string>
+    <string name="w13">w13</string>
+    <string name="w14">w14</string>
+    <string name="w15">w15</string>
+    <string name="mySmartCat">
+        У лукоморья дуб зелёный;\n
+        Златая цепь на дубе том:\n
+        И днём и ночью <b>кот учёный</b>\n
+        Всё ходит по цепи кругом;\n
+        Идёт <b>направо</b> - песнь заводит,\n
+        <b>Налево</b> - сказку говорит.
+    </string>
+    <string name="big">big</string>
+    <string name="middle">middle</string>
+    <string name="small">small</string>
+    <string name="menu_settings">menu_settings</string>
+    <string name="in_parrots">In parrots</string>
+    <string name="in_meters">In meters</string>
+    <string name="convert">Convert</string>
+    <string name="add_the_data">Add the data</string>
+    <string name="apples">apples</string>
+    <string name="green">green</string>
+    <string name="yellow">yellow</string>
+    <string name="red">red</string>
+    <string name="popupButton">popup</string>
+    <string name="finish">finish</string>
+    <string name="stop">stop</string>
+    <string name="start">start</string>
+    <string name="rotateCenterButton">center</string>
+    <string name="rotateCornerButton">corner</string>
+    <string name="sun">sun</string>
+    <string name="grass">grass</string>
+    <string name="sky">sky</string>
+    <string name="clock">clock</string>
+    <string name="hour">hour</string>
+    <string name="progress">прогресс</string>
+    <string name="threadTextView">Thread text view</string>
+    <string name="button10">Моя новая кнопка10</string>
+    <string name="button11">Моя новая кнопка11</string>
+    <string name="button12">Моя новая кнопка12</string>
+    <string name="button13">Моя новая кнопка13</string>
+    <string name="button8">Моя новая кнопка8</string>
+    <string name="button9">Моя новая кнопка9</string>
+    <string name="personal_adviser">персональный советчик</string>
+    <string name="author_unknown">Автор неизвестен)</string>
+
+
+</resources>

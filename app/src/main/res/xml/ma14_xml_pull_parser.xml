@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tips>
+    <ru>
+        <dict>
+            <key>avtor</key>
+            <string>М. Лаптон</string>
+            <key>advise</key>
+            <string>Чтобы попасть куда-либо, двигайся в каком-нибудь направлении или не попадешь
+                никуда
+            </string>
+        </dict>
+        <dict>
+            <key>avtor</key>
+            <string>А. Сент-Экзюпери</string>
+            <key>advise</key>
+            <string>Кто колеблется, тот проигрывает.</string>
+        </dict>
+        <dict>
+            <key>avtor</key>
+            <string>Аврелий</string>
+            <key>advise</key>
+            <string>Помните об этом: очень немного нужно, чтобы сделать жизнь счастливой.</string>
+        </dict>
+    </ru>
+    <ru2>
+        <dict>
+            <key>avtor</key>
+            <string>М. Лаптон2</string>
+            <key>advise</key>
+            <string>Чтобы попасть куда-либо, двигайся в каком-нибудь направлении или не попадешь
+                никуда2
+            </string>
+        </dict>
+        <dict>
+            <key>avtor</key>
+            <string>А. Сент-Экзюпери2</string>
+            <key>advise</key>
+            <string>Кто колеблется, тот проигрывает.2</string>
+        </dict>
+        <dict>
+            <key>avtor</key>
+            <string>Аврелии2̆</string>
+            <key>advise</key>
+            <string>Помните об этом: очень немного нужно, чтобы сделать жизнь счастливои.2</string>
+        </dict>
+    </ru2>
+</tips>
+
+
+    <!--<data>--><!--<phone>--><!--<company>--><!--Samsung--><!--</company>--><!--<model>--><!--Galaxy S Duos--><!--</model>--><!--<price>--><!--2000--><!--</price>--><!--<screen multitouch="yes">--><!--4.0--><!--</screen>--><!--<colors>--><!--<color>--><!--White--><!--</color>--><!--<color>--><!--Black--><!--</color>--><!--</colors>--><!--</phone>--><!--<phone>--><!--<company>--><!--Nokia--><!--</company>--><!--<model>--><!--3310--><!--</model>--><!--<price>--><!--1000--><!--</price>--><!--<screen multitouch="no">--><!--3.7--><!--</screen>--><!--<colors>--><!--<color>--><!--White--><!--</color>--><!--<
+ lor>--><!--Black--><!--</color>--><!--<color>--><!--Red--><!--</color>--><!--</colors>--><!--</phone>--><!--</data>-->

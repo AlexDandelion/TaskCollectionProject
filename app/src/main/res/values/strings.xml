@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Study</string>
+    <string name="w2">w2</string>
+    <string name="w3">w3</string>
+    <string name="w4">w4</string>
+    <string name="w5">w5</string>
+    <string name="w6">w6</string>
+    <string name="w7">w7</string>
+    <string name="w8">w8</string>
+    <string name="w9">w9</string>
+    <string name="w10">w10</string>
+    <string name="w11">w11</string>
+    <string name="w12">w12</string>
+    <string name="w13">w13</string>
+    <string name="w14">w14</string>
+    <string name="w15">w15</string>
+    <string name="w16">w16</string>
+    <string name="w17">w17</string>
+    <string name="w18">w18</string>
+    <string name="w19">w19</string>
+    <string name="w20">w20</string>
+    <string name="w21">w21</string>
+    <string name="button8">My new button8</string>
+    <string name="button9">My new button9</string>
+    <string name="button10">My new button10</string>
+    <string name="button11">My new button11</string>
+    <string name="button12">My new button12</string>
+    <string name="button13">My new button13</string>
+    <string name="fragment1">Fragment 1</string>
+    <string name="fragment2">Fragment 2</string>
+    <string name="mySmartCat">
+        У лукоморья дуб зелёный;\n
+        Златая цепь на дубе том:\n
+        И днём и ночью <b>кот учёный</b>\n
+        Всё ходит по цепи кругом;\n
+        Идёт <b>направо</b> - песнь заводит,\n
+        <b>Налево</b> - сказку говорит.
+    </string>
+    <string name="big_tip_text">
+        Раз два три четыре пять вышел зайчик погулять пиф-паф ой-ой-ой,
+        умирает зайчик мой, повезли его в больницу он украл там руковицу,
+        повезли его домой оказался он живой
+    </string>
+    <string name="big">big</string>
+    <string name="middle">middle</string>
+    <string name="small">small</string>
+    <string name="menu_settings">menu_settings</string>
+    <string name="in_parrots">In parrots</string>
+    <string name="in_meters">In meters</string>
+    <string name="convert">Convert</string>
+    <string name="add_the_data">Add the data</string>
+    <string name="apples">apples</string>
+    <string name="green">green</string>
+    <string name="yellow">yellow</string>
+    <string name="red">red</string>
+    <string name="popupButton">popup</string>
+    <string name="finish">finish</string>
+    <string name="stop">stop</string>
+    <string name="start">start</string>
+    <string name="rotateCenterButton">center</string>
+    <string name="rotateCornerButton">corner</string>
+    <string name="sun">sun</string>
+    <string name="grass">grass</string>
+    <string name="sky">sky</string>
+    <string name="clock">clock</string>
+    <string name="hour">hour</string>
+    <string name="progress">progress</string>
+    <string name="threadTextView">Thread text view</string>
+    <string name="wifi_title">wifi</string>
+    <string name="wifi_summary">on or off wifi</string>
+    <string name="hints_title">hints</string>
+    <string name="hints_summary">on or off hints</string>
+    <string name="languages_title">languages</string>
+    <string name="languages_summary">choice language</string>
+    <string name="open_file">Open</string>
+    <string name="save_file">Save</string>
+
+    <string name="action_open">1Открыть</string>
+    <string name="action_save">1Сохранить</string>
+    <string name="action_settings">1Настройки</string>
+    <string name="pref_open_mode">1Режим открытия</string>
+    <string name="pref_color">1Цвет</string>
+    <string name="pref_color_black">1Черный цвет</string>
+    <string name="pref_color_red">1Красный цвет</string>
+    <string name="pref_color_green">1Зеленый цвет</string>
+    <string name="pref_color_blue">1Синий цвет</string>
+    <string name="pref_size">1Размер</string>
+    <string name="pref_style">1Стиль</string>
+    <string name="pref_style_regular">1Нормальный</string>
+    <string name="pref_style_bold">1Полужирный</string>
+    <string name="pref_style_italic">1Курсив</string>
+    <string name="personal_adviser">personal adviser</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="replace">Replace</string>
+    <string name="add_to_back_stack">Add to Back Stack</string>
+    <string name="look_on_console">Look on console!</string>
+    <string name="push_and_look_on_console">Push and look on console!</string>
+    <string name="read_data_from_XML">Read data from XML</string>
+    <string name="show_locale">Show locale</string>
+    <string name="author_unknown">Author unknown</string>
+
+    <string-array name="array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="array_value">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+
+</resources>

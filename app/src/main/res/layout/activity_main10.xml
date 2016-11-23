@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOrange">
+
+    <!--<include layout="@layout/toolbar" />-->
+
+    <!--<android.support.v7.widget.Toolbar -->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/toolbar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:background="@drawable/logo2" />-->
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toolbar_top"
+        android:layout_marginLeft="85dp"
+        android:text="@string/personal_adviser"
+        android:textColor="@color/backgroundMain"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/show_locale"
+        android:layout_below="@+id/toolbar_top"
+        android:layout_centerHorizontal="true">
+
+    </Button>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:background="@drawable/corners">
+
+        <TextView
+            android:id="@+id/tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/big_tip_text"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tip"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Фаина Раневская" />
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignEnd="@+id/tip"
+            android:layout_alignRight="@+id/tip"
+            android:layout_below="@+id/tip"
+            android:layout_margin="5dp"
+            android:background="@drawable/arrow" />
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tip"
+            android:layout_margin="5dp"
+            android:layout_toLeftOf="@+id/arrow"
+            android:layout_toStartOf="@+id/arrow"
+            android:background="@drawable/star" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
